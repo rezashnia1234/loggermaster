@@ -76,10 +76,10 @@
 	
 	<!-- <plugin name="phonegap-plugin-barcodescanner" source="npm" /> -->
 	<!-- <plugin spec="https://github.com/Telerik-Verified-Plugins/BarcodeScanner.git" source="git" /> -->
-	<plugin spec="https://github.com/VersoSolutions/CordovaClipboard.git" source="git" />
+	<!-- <plugin spec="https://github.com/VersoSolutions/CordovaClipboard.git" source="git" /> -->
 
 
-	<plugin spec="https://github.com/LouisT/cordova-useragent.git" source="git" />
+	<!-- <plugin spec="https://github.com/LouisT/cordova-useragent.git" source="git" /> -->
 	<plugin spec="https://github.com/Paldom/UniqueDeviceID.git" source="git" />
 	<plugin spec="https://github.com/apache/cordova-plugin-statusbar.git " source="git" />
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
