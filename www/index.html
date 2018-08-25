@@ -154,6 +154,10 @@
 			else
 				networkState = navigator.connection.effectiveType;
 			check_net(true,true,false);
+			
+			
+			var useragent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36";
+			UserAgent.set(useragent);
 		}
 		function need_internet(){
 			if(does_we_have_intenet)
