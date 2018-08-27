@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.loggermaster"
-        version   = "1.4">
+        id        = "com.loggermaster.loggerflex"
+        version   = "1.0">
 		
 		
     <name>EEMS</name>
@@ -31,6 +31,7 @@
 	<preference name="AutoHideSplashScreen"				value="true" />
 	<preference name="disable-cursor"					value="false" />			<!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
 	<preference name="android-minSdkVersion"			value="16" />				<!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
+	<preference name="android-targetSdkVersion"			value="26" />
 	<preference name="android-installLocation"			value="auto" />				<!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 	<preference name="SplashScreenDelay"				value="5000"/>
 	<preference name="FadeSplashScreen"					value="false" />
