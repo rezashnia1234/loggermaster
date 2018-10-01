@@ -78,10 +78,10 @@
 					error: function(jqXHR, exception) {
 						window.sessionStorage.setItem("do_loop","1");
 						navigator.notification.alert(
-							'شما برای استفاده از خدمات این نرم افزار به اینترنت نیاز دارید!',  // message
+							'internet connection failed.',  // message
 							alertDismissed_check_net,         // callback
-							'توجه',            // title
-							'تائید'                  // buttonName
+							'Notice',            // title
+							'OK'                  // buttonName
 						);
 					},
 			});
@@ -102,10 +102,10 @@
 						window.sessionStorage.setItem("do_loop","0");
 					
 					navigator.notification.alert(
-						'شما برای استفاده از خدمات این نرم افزار به اینترنت نیاز دارید!',  // message
+						'internet connection failed.',  // message
 						alertDismissed_check_net,         // callback
-						'توجه',            // title
-						'تائید'                  // buttonName
+						'Notice',            // title
+						'OK'                  // buttonName
 					);
 				}
 				return false;
@@ -117,10 +117,10 @@
 				<!-- { -->
 					<!-- window.sessionStorage.setItem("do_loop","1"); -->
 					<!-- navigator.notification.alert( -->
-						<!-- 'شما برای استفاده از خدمات این نرم افزار به اینترنت نیاز دارید!',  // message -->
+						<!-- 'internet connection failed.',  // message -->
 						<!-- alertDismissed_check_net,         // callback -->
-						<!-- 'توجه',            // title -->
-						<!-- 'تائید'                  // buttonName -->
+						<!-- 'Notice',            // title -->
+						<!-- 'OK'                  // buttonName -->
 					<!-- ); -->
 					<!-- return false; -->
 				<!-- } -->
@@ -167,10 +167,10 @@
 		};
 		function need_internet_alert(){
 			navigator.notification.alert(
-				'شما برای استفاده از خدمات این نرم افزار به اینترنت نیاز دارید!',  // message
+				'internet connection failed.',  // message
 				alertDismissed,         // callback
-				'توجه',            // title
-				'تائید'                  // buttonName
+				'Notice',            // title
+				'OK'                  // buttonName
 			);
 			function alertDismissed(){};
 		};
@@ -186,10 +186,10 @@
 
 		function go_back_index() {
 			navigator.notification.confirm(
-				'آیا تمایل به خروج از برنامه را دارید؟',	// message
+				'Do you want to close the application?',	// message
 				onExitConfirm,								// callback
-				'توجه',										// title
-				['بله','خیر']								// buttonName
+				'Notice',										// title
+				['Yes','No']								// buttonName
 			);
 		}
 		function onExitConfirm(buttonIndex) {
